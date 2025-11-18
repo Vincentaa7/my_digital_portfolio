@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Vincent Alfian Artha - Digital Portfolio | Mahasiswa Sistem Komputer ITB STIKOM Bali" />
+    <meta name="author" content="Vincent Alfian Artha" />
+    <title>Vincent Alfian Artha – Digital Portfolio</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet" />
+
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <!-- Google Fonts - Poppins -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet" />
+
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#home">
+          <span class="text-primary">Vincent</span> Alfian
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pbl">PBL</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cbl">CBL</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+      <div class="container">
+        <div class="row align-items-center min-vh-100">
+          <div class="col-lg-6" data-aos="fade-right">
+            <h1 class="display-4 fw-bold mb-3">
+              Hi, Saya <span class="text-primary">Vincent Alfian Artha</span>
+            </h1>
+            <h4 class="text-muted mb-4">Mahasiswa Sistem Komputer</h4>
+            <p class="lead mb-4">Web Development • Networking • IT Systems</p>
+            <div class="d-flex gap-3">
+              <a href="#about" class="btn btn-primary btn-lg">Lihat Profil</a>
+              <a href="#contact" class="btn btn-outline-primary btn-lg"
+                >Hubungi Saya</a
+              >
+            </div>
+            <div class="social-links mt-4">
+              <a
+                href="https://github.com/Vincentaa7"
+                target="_blank"
+                class="social-icon">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="mailto:your.vincentbocah@gmail.com" class="social-icon">
+                <i class="fas fa-envelope"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/vincent-alfian-artha-0217032a0/" target="_blank" class="social-icon">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-6 text-center" data-aos="fade-left">
+            <div class="hero-image">
+              <img
+                src="assets/images/hero-illustration.svg"
+                alt="Hero Illustration"
+                class="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center mb-5" data-aos="fade-up">
+            <h2 class="section-title">About Me</h2>
+            <div class="title-underline"></div>
+          </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-lg-4 text-center mb-4 mb-lg-0" data-aos="fade-right">
+            <div class="about-image">
+              <img
+                src="assets/images/profile.jpg"
+                alt="Vincent Alfian Artha"
+                class="img-fluid rounded-circle shadow" />
+            </div>
+          </div>
+          <div class="col-lg-8" data-aos="fade-left">
+            <div class="about-content">
+              <h3 class="mb-3">Vincent Alfian Artha</h3>
+              <div class="info-box mb-4">
+                <div class="info-item">
+                  <i class="fas fa-graduation-cap text-primary"></i>
+                  <div>
+                    <strong>Program Studi:</strong>
+                    <p>Sistem Komputer</p>
+                  </div>
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-university text-primary"></i>
+                  <div>
+                    <strong>Kampus:</strong>
+                    <p>ITB STIKOM Bali</p>
+                  </div>
+                </div>
+                <div class="info-item">
+                  <i class="fas fa-calendar text-primary"></i>
+                  <div>
+                    <strong>Tahun Masuk:</strong>
+                    <p>2023</p>
+                  </div>
+                </div>
+              </div>
+              <p class="text-justify">
+                Saya adalah mahasiswa Sistem Komputer yang memiliki ketertarikan
+                pada pengembangan aplikasi web, jaringan komputer, dan sistem
+                komputasi. Saya aktif mengerjakan proyek berbasis kasus (CBL)
+                dan proyek berbasis produk (PBL) yang membantu saya memperkuat
+                kemampuan analisis, implementasi, dan pemecahan masalah. Saya
+                berfokus pada pengembangan solusi digital yang fungsional,
+                efisien, dan relevan dengan kebutuhan nyata.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center mb-5" data-aos="fade-up">
+            <h2 class="section-title">Skills & Kompetensi</h2>
+            <div class="title-underline"></div>
+          </div>
+        </div>
+
+        <!-- Programming & Web Development -->
+        <div class="row mb-5">
+          <div class="col-lg-12" data-aos="fade-up">
+            <h4 class="skill-category-title">
+              <i class="fas fa-code text-primary"></i> Programming & Web
+              Development
+            </h4>
+          </div>
+          <div
+            class="col-lg-2 col-md-4 col-6 mb-4"
+            data-aos="zoom-in"
+            data-aos-delay="100">
+            <div class="skill-card">
+              <i class="fab fa-html5"></i>
+              <p>HTML</p>
+            </div>
+          </div>
+          <div
+            class="col-lg-2 col-md-4 col-6 mb-4"
+            data-aos="zoom-in"
+            data-aos-delay="150">
+            <div class="skill-card">
+              <i class="fab fa-css3-alt"></i>
+              <p>CSS</p>
+            </div>
+          </div>
+          <div
+            class="col-lg-2 col-md-4 col-6 mb-4"
+            data-aos="zoom-in"
+            data-aos-delay="200">
+            <div class="skill-card">
+              <i class="fab fa-js"></i>
+              <p>JavaScript</p>
+            </div>
+          </div>
+          <div
+            class="col-lg-2 col-md-4 col-6 mb-4"
+            data-aos="zoom-in"
+            data-aos-delay="250">
+            <div class="skill-card">
+              <i class="fab fa-php"></i>
+              <p>PHP</p>
+            </div>
+          </div>
+          <div
+            class="col-lg-2 col-md-4 col-6 mb-4"
+            data-aos="zoom-in"
+            data-aos-delay="250">
+            <div class="skill-card">
+              <i class="fab fa-python"></i>
+              <p>Python</p>
+            </div>
+          </div>
+          <div
+            class="col-lg-2 col-md-4 col-6 mb-4"
+            data-aos="zoom-in"
+            data-aos-delay="300">
+            <div class="skill-card">
+              <i class="fab fa-bootstrap"></i>
+              <p>Bootstrap</p>
+            </div>
+          </div>
+          <div
+            class="col-lg-2 col-md-4 col-6 mb-4"
+            data-aos="zoom-in"
+            data-aos-delay="350">
+            <div class="skill-card">
+              <i class="fas fa-database"></i>
+              <p>MySQL</p>
+            </div>
+          </div>
+          <div
+            class="col-lg-2 col-md-4 col-6 mb-4"
+            data-aos="zoom-in"
+            data-aos-delay="450">
+            <div class="skill-card">
+              <i class="fab fa-git-alt"></i>
+              <p>Git & GitHub</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Networking & Systems -->
+        <div class="row mb-5">
+          <div class="col-lg-12" data-aos="fade-up">
+            <h4 class="skill-category-title">
+              <i class="fas fa-network-wired text-primary"></i> Networking &
+              Systems
+            </h4>
+          </div>
+          <div
+            class="col-lg-3 col-md-4 col-6 mb-4"
+            data-aos="zoom-in"
+            data-aos-delay="100">
+            <div class="skill-card">
+              <i class="fas fa-project-diagram"></i>
+              <p>Cisco Packet Tracer</p>
+            </div>
+          </div>
+          <div
+            class="col-lg-3 col-md-4 col-6 mb-4"
+            data-aos="zoom-in"
+            data-aos-delay="150">
+            <div class="skill-card">
+              <i class="fas fa-sitemap"></i>
+              <p>Subnetting & VLAN</p>
+            </div>
+          </div>
+          <div
+            class="col-lg-3 col-md-4 col-6 mb-4"
+            data-aos="zoom-in"
+            data-aos-delay="200">
+            <div class="skill-card">
+              <i class="fas fa-route"></i>
+              <p>Static Routing</p>
+            </div>
+          </div>
+          <div
+            class="col-lg-3 col-md-4 col-6 mb-4"
+            data-aos="zoom-in"
+            data-aos-delay="250">
+            <div class="skill-card">
+              <i class="fas fa-shield-alt"></i>
+              <p>ACL</p>
+            </div>
+          </div>
+          <div
+            class="col-lg-3 col-md-4 col-6 mb-4"
+            data-aos="zoom-in"
+            data-aos-delay="300">
+            <div class="skill-card">
+              <i class="fas fa-server"></i>
+              <p>DHCP & DNS</p>
+            </div>
+          </div>
+          <div
+            class="col-lg-3 col-md-4 col-6 mb-4"
+            data-aos="zoom-in"
+            data-aos-delay="350">
+            <div class="skill-card">
+              <i class="fas fa-tools"></i>
+              <p>Troubleshooting</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tools -->
+        <div class="row">
+          <div class="col-lg-12" data-aos="fade-up">
+            <h4 class="skill-category-title">
+              <i class="fas fa-toolbox text-primary"></i> Tools
+            </h4>
+          </div>
+          <div
+            class="col-lg-3 col-md-4 col-6 mb-4"
+            data-aos="zoom-in"
+            data-aos-delay="100">
+            <div class="skill-card">
+              <i class="fas fa-code"></i>
+              <p>VS Code</p>
+            </div>
+          </div>
+          <div
+            class="col-lg-3 col-md-4 col-6 mb-4"
+            data-aos="zoom-in"
+            data-aos-delay="150">
+            <div class="skill-card">
+              <i class="fab fa-figma"></i>
+              <p>Figma</p>
+            </div>
+          </div>
+          <div
+            class="col-lg-3 col-md-4 col-6 mb-4"
+            data-aos="zoom-in"
+            data-aos-delay="200">
+            <div class="skill-card">
+              <i class="fas fa-database"></i>
+              <p>XAMPP</p>
+            </div>
+          </div>
+          <div
+            class="col-lg-3 col-md-4 col-6 mb-4"
+            data-aos="zoom-in"
+            data-aos-delay="250">
+            <div class="skill-card">
+              <i class="fab fa-linux"></i>
+              <p>Linux Terminal</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PBL Section -->
+    <section id="pbl" class="section-padding bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center mb-5" data-aos="fade-up">
+            <h2 class="section-title">Project-Based Learning (PBL)</h2>
+            <div class="title-underline"></div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-10" data-aos="fade-up">
+            <div class="project-card">
+              <div class="project-header">
+                <div class="project-icon">
+                  <i class="fas fa-laptop-code"></i>
+                </div>
+                <div>
+                  <h3 class="project-title">
+                    Sistem Informasi Booking Fasilitas Kampus
+                  </h3>
+                  <div class="project-meta">
+                    <span class="badge bg-primary">Full Stack Developer</span>
+                    <span class="badge bg-secondary">2025 - Semester V - Web Development</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="project-body">
+                <h5>
+                  <i class="fas fa-bullseye text-primary"></i> Tujuan Proyek
+                </h5>
+                <p>
+                  Membangun sistem informasi berbasis web untuk pemesanan
+                  fasilitas kampus (ruang kelas, lab, aula). Sistem ini
+                  memudahkan mahasiswa dan dosen dalam melihat ketersediaan
+                  fasilitas, mengajukan booking, serta mempermudah admin dalam
+                  mengelola jadwal penggunaan fasilitas.
+                </p>
+
+                <h5>
+                  <i class="fas fa-tools text-primary"></i> Teknologi yang
+                  Digunakan
+                </h5>
+                <div class="tech-stack">
+                  <span class="tech-badge">PHP Native</span>
+                  <span class="tech-badge">MySQL</span>
+                  <span class="tech-badge">Bootstrap</span>
+                  <span class="tech-badge">HTML/CSS/JS</span>
+                  <span class="tech-badge">MVC</span>
+                  <span class="tech-badge">XAMPP</span>
+                </div>
+
+                <h5>
+                  <i class="fas fa-check-circle text-primary"></i> Hasil & Fitur
+                </h5>
+                <ul class="feature-list">
+                  <li>
+                    <i class="fas fa-check"></i> Sistem booking dengan login
+                    user/admin
+                  </li>
+                  <li>
+                    <i class="fas fa-check"></i> Manajemen fasilitas (CRUD)
+                  </li>
+                  <li>
+                    <i class="fas fa-check"></i> Pengecekan jadwal fasilitas &
+                    deteksi bentrok
+                  </li>
+                  <li>
+                    <i class="fas fa-check"></i> Persetujuan / penolakan booking
+                    dari admin
+                  </li>
+                  <li>
+                    <i class="fas fa-check"></i> Dashboard ringkasan booking
+                  </li>
+                </ul>
+
+                <div class="project-footer">
+                  <a
+                    href="https://github.com/Vincentaa7/sistem-booking-fasilitas-kampus"
+                    target="_blank"
+                    class="btn btn-primary">
+                    <i class="fab fa-github"></i> Lihat di GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CBL Section -->
+    <section id="cbl" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center mb-5" data-aos="fade-up">
+            <h2 class="section-title">Case-Based Learning (CBL)</h2>
+            <div class="title-underline"></div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-10" data-aos="fade-up">
+            <div class="project-card">
+              <div class="project-header">
+                <div class="project-icon network">
+                  <i class="fas fa-network-wired"></i>
+                </div>
+                <div>
+                  <h3 class="project-title">
+                    Hotel Network Simulation & Routing with ACL
+                  </h3>
+                  <div class="project-meta">
+                    <span class="badge bg-success">Network Engineer</span>
+                    <span class="badge bg-secondary">2025 - Semester V - Jaringan Komputer</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="project-body">
+                <h5>
+                  <i class="fas fa-bullseye text-primary"></i> Tujuan Proyek
+                </h5>
+                <p>
+                  Melakukan analisis kebutuhan jaringan sebuah hotel, membangun
+                  topologi jaringan menggunakan Cisco Packet Tracer, serta
+                  mengimplementasikan routing dan ACL untuk memisahkan akses
+                  jaringan tamu dan jaringan kantor hotel.
+                </p>
+
+                <h5>
+                  <i class="fas fa-tools text-primary"></i> Teknologi yang
+                  Digunakan
+                </h5>
+                <div class="tech-stack">
+                  <span class="tech-badge">Cisco Packet Tracer</span>
+                  <span class="tech-badge">Subnetting</span>
+                  <span class="tech-badge">Static Routing</span>
+                  <span class="tech-badge">VLAN</span>
+                  <span class="tech-badge">ACL</span>
+                  <span class="tech-badge">Network Analysis</span>
+                </div>
+
+                <h5>
+                  <i class="fas fa-check-circle text-primary"></i> Hasil &
+                  Implementasi
+                </h5>
+                <ul class="feature-list">
+                  <li>
+                    <i class="fas fa-check"></i> Topologi jaringan hotel lengkap
+                  </li>
+                  <li>
+                    <i class="fas fa-check"></i> Routing antar jaringan berhasil
+                  </li>
+                  <li>
+                    <i class="fas fa-check"></i> ACL diterapkan untuk membatasi
+                    akses tamu → kantor
+                  </li>
+                  <li>
+                    <i class="fas fa-check"></i> Dokumentasi konfigurasi &
+                    analisis alur trafik
+                  </li>
+                </ul>
+
+                <div class="project-footer">
+                  <a
+                    href="https://github.com/Vincentaa7/Hotel-Network-Simulation-CiscoPacketTracer"
+                    target="_blank"
+                    class="btn btn-success">
+                    <i class="fab fa-github"></i> Lihat di GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center mb-5" data-aos="fade-up">
+            <h2 class="section-title">Hubungi Saya</h2>
+            <div class="title-underline"></div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="contact-info mb-5" data-aos="fade-up">
+              <div class="row text-center">
+                <div class="col-md-4 mb-4">
+                  <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <h5>Email</h5>
+                    <p>vincentbocah@gmail.com</p>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                  <div class="contact-item">
+                    <i class="fab fa-github"></i>
+                    <h5>GitHub</h5>
+                    <p>
+                      <a href="https://github.com/Vincentaa7" target="_blank"
+                        >@Vincentaa7</a
+                      >
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                  <div class="contact-item">
+                    <i class="fab fa-linkedin"></i>
+                    <h5>LinkedIn</h5>
+                    <p>
+                      <a href="https://www.linkedin.com/in/vincent-alfian-artha-0217032a0/" target="_blank">Vincent Alfian Artha</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-form" data-aos="fade-up">
+              <form id="contactForm">
+                <div class="mb-3">
+                  <label for="name" class="form-label">Nama</label>
+                  <input type="text" class="form-control" id="name" required />
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    required />
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="form-label">Pesan</label>
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    rows="5"
+                    required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-lg w-100">
+                  <i class="fas fa-paper-plane"></i> Kirim Pesan
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <p class="mb-0">© 2025 Vincent Alfian Artha – Digital Portfolio</p>
+            <div class="social-links mt-3">
+              <a
+                href="https://github.com/Vincentaa7"
+                target="_blank"
+                class="social-icon">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="mailto:your.vincentbocah@gmail.com" class="social-icon">
+                <i class="fas fa-envelope"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/vincent-alfian-artha-0217032a0/" target="_blank" class="social-icon">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- AOS Animation JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Custom JS -->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
