@@ -158,9 +158,9 @@ Website ini fully responsive dan telah dioptimasi untuk berbagai ukuran layar:
 
 ## 📞 Kontak
 
-- **Email**: your.email@example.com
+- **Email**: vincentbocah@gmail.com
 - **GitHub**: [@Vincentaa7](https://github.com/Vincentaa7)
-- **LinkedIn**: Vincent Alfian Artha
+- **LinkedIn**: [@Vincent Alfian Artha](https://www.linkedin.com/in/vincent-alfian-artha-0217032a0/)
 
 ## 📄 Lisensi
 
